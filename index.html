@@ -8,30 +8,51 @@
     <title>Login</title>
 </head>
 <body>
+    <main>
+        <h1>Welcome to the web!</h1>
+        <p>Please login to continue</p>
+        <form action="submit">
+            <label for="nameLbl">
+                Username:
+                <input id="nameLbl" type="text" name="name">
+            </label>
+            
+            <label for="passwordLbl">
+                Password:
+                <input id="passwordLbl" type="text" name="password">
+            </label>
+            <button type="submit">Log in</button>
+        </form>
+
+        <section>
+            <p>Not already a user?</p>
+            <button>Register new user</button>
+        </section>
+    </main>
     <!-- 
     html för två formulär
     * Ett för inloggning
     * Ett för registrering
-
-
+    
+    
     Start
     * Inloggningsformuläret syns först
     * Registreringen syns ej
-
+    
     * Knapp för "Registrera dig"
     * Klickas denna så 
-        * Inloggningsformuläret blir osynlig
-        * Registretingsformuläret blir synlig
-
-
+    * Inloggningsformuläret blir osynlig
+    * Registretingsformuläret blir synlig
+    
+    
     Inloggningsformuläret består av
     * "Välkommen. Logga in för att komma vidare"
     * Fältet "username"
     * Fältet "password"
     * "Inte medlem? Registrera dig här"
     * Knappen "till registrering"
-
-
+    
+    
     Registreringsformuläret består av
     * Titel "Registrera ny användare"
     * Fältet "username"
@@ -39,9 +60,8 @@
     * Fältet "password again"
     * Checkbox "Jag godkänner villkoren"
     * Knappen "registrera användare"
-
-
+    
+    
     -->
-    <h1>Login</h1>
 </body>
 </html>
