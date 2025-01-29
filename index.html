@@ -11,22 +11,24 @@
     <main>
         <h1>Welcome to the web!</h1>
         <p>Please login to continue</p>
-        <form action="submit">
-            <label for="nameLbl">
-                Username:
-                <input id="nameLbl" type="text" name="name">
-            </label>
-            
-            <label for="passwordLbl">
-                Password:
-                <input id="passwordLbl" type="text" name="password">
-            </label>
-            <button type="submit">Log in</button>
-        </form>
-
         <section>
-            <p>Not already a user?</p>
-            <button>Register new user</button>
+            <form action="submit">
+                <label for="loginNameInput">
+                    Username:
+                    <input id="loginUsernameInput" type="text" name="name">
+                </label>
+                
+                <label for="loginPasswordInput">
+                    Password:
+                    <input id="loginPasswordInput" type="text" name="password">
+                </label>
+                <button type="submit">Log in</button>
+            </form>
+    
+            <section>
+                <p>Not already a user?</p>
+                <button>Register new user</button>
+            </section>
         </section>
     </main>
     <!-- 
