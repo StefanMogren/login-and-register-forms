@@ -12,23 +12,47 @@
         <h1>Welcome to the web!</h1>
         <p>Please login to continue</p>
         <section>
+            <!-- Login form -->
             <form action="submit">
-                <label for="loginNameInput">
+                
+                <label for="loginUserInput">
                     Username:
-                    <input id="loginUsernameInput" type="text" name="name">
+                    <input id="loginUserInput" type="text" name="name">
                 </label>
                 
-                <label for="loginPasswordInput">
+                <label for="logPassInput">
                     Password:
-                    <input id="loginPasswordInput" type="text" name="password">
+                    <input id="logPassInput" type="text" name="password">
                 </label>
                 <button type="submit">Log in</button>
             </form>
-    
+            
             <section>
                 <p>Not already a user?</p>
                 <button>Register new user</button>
             </section>
+        </section>
+
+        <!-- Register form -->
+        <section>
+            <form action="submit">
+
+                <label for="regUserInput">
+                    Username:
+                    <input id="regUserInput" type="text">
+                </label>
+
+                <label for="regPassInput">
+                    Password:
+                    <input id="regPassInput" type="text">
+                </label>
+
+                <label for="regPassAgainInput">
+                    Repeat password:
+                    <input id="regPassAgainInput" type="text">
+                </label>
+                <button type="submit">Register user</button>
+            </form>
         </section>
     </main>
     <!-- 
