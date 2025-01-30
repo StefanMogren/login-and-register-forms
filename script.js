@@ -1,8 +1,11 @@
-const myVar = 23;
+const myOr = 23;
 
-const myOtherVar = 37 + myVar;
 
-console.log("Summan är " + myVar + myOtherVar);
+
+let myVar = " så det så"
+const myOtar = 37 + myVar;
+
+console.log("Summan är " + myOr + myOtar);
 
 
 
