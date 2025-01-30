@@ -8,50 +8,51 @@
     <title>Login</title>
 </head>
 <body>
-    <main>
-        <h1>Welcome to the web!</h1>
-        <p>Please login to continue</p>
-        <section>
+    <main class="main-container">
+        <h1 class="main-container__title">Welcome to the web!</h1>
+        <p class="main-container__text">Please login to continue</p>
+        <section id="loginSection" class="main-container__wrapper">
+
             <!-- Login form -->
-            <form action="submit">
+            <form id="loginForm" class="main-container__flex" action="submit">
                 
-                <label for="loginUserInput">
+                <label class="main-container__inner-flex-label" for="loginUserInput">
                     Username:
-                    <input id="loginUserInput" type="text" name="name">
+                    <input id="loginUserInput" class="main-container__input-field" type="text" name="name">
                 </label>
                 
-                <label for="logPassInput">
+                <label class="main-container__inner-flex-label" for="loginPassInput">
                     Password:
-                    <input id="logPassInput" type="text" name="password">
+                    <input id="loginPassInput" class="main-container__input-field" type="text" name="password">
                 </label>
-                <button type="submit">Log in</button>
+                <button class="main-container__btn" type="submit">Log in</button>
             </form>
             
-            <section>
-                <p>Not already a user?</p>
-                <button>Register new user</button>
+            <section class="main-container__flex">
+                <p class="main-container__sub-text">Not already a user?</p>
+                <button id="loginRegisterBtn" class="main-container__btn">Register new user</button>
             </section>
         </section>
 
         <!-- Register form -->
-        <section>
-            <form action="submit">
+        <section id="registerSection" class="main-container__wrapper main-container__wrapper--display-none">
+            <form id="registerForm" class="main-container__flex" action="submit">
 
-                <label for="regUserInput">
+                <label class="main-container__inner-flex-label" for="registerUserInput">
                     Username:
-                    <input id="regUserInput" type="text">
+                    <input id="registerUserInput" class="main-container__input-field" type="text">
                 </label>
 
-                <label for="regPassInput">
+                <label class="main-container__inner-flex-label" for="registerPassInput">
                     Password:
-                    <input id="regPassInput" type="text">
+                    <input id="registerPassInput" class="main-container__input-field" type="text">
                 </label>
 
-                <label for="regPassAgainInput">
+                <label class="main-container__inner-flex-label" for="registerPassAgainInput">
                     Repeat password:
-                    <input id="regPassAgainInput" type="text">
+                    <input id="registerPassAgainInput" class="main-container__input-field" type="text">
                 </label>
-                <button type="submit">Register user</button>
+                <button class="main-container__btn" type="submit">Register user</button>
             </form>
         </section>
     </main>
