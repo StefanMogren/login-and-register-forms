@@ -1,8 +1,9 @@
 const myVar = 23;
 
-const myOtherVar = 37;
+const myOtherVar = 37 + myVar;
 
 console.log("Summan är " + myVar + myOtherVar);
+
 
 
 /* 
