@@ -1,3 +1,10 @@
+const myVar = 23;
+
+const myOtherVar = 37;
+
+console.log("Summan är " + myVar + myOtherVar);
+
+
 /* 
 Skapa funktionerna
 * validateRegistration()
