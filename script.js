@@ -1,3 +1,8 @@
+let myNumber = 36;
+
+let myOtherNumber = 32;
+
+console.log("The sum is " + myNumber + myOtherNumber);
 /* 
 Skapa funktionerna
 * validateRegistration()
