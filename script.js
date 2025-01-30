@@ -1,8 +1,10 @@
 let myNumber = 36;
 
-let myOtherNumber = 32;
+const myOtherVar = 37;
 
-console.log("The sum is " + myNumber + myOtherNumber);
+console.log("Summan är " + myNumber + myOtherVar);
+
+
 /* 
 Skapa funktionerna
 * validateRegistration()
